@@ -28,7 +28,7 @@ document.querySelector("form").onclick = function (event) {
   console.log(event.target) //? event kaynagi
 
   //! Tiklanilan elemanın arkaplan rengini sari yap.
-  event.target.style.backgroundColor = "grey"
+  event.target.style.backgroundColor = "yellow"
 
   //*! 500ms atanmis rengi kaldir
   setTimeout(() => {
